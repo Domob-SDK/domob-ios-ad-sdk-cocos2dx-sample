@@ -60,8 +60,8 @@ static AppDelegate s_sharedApplication;
 
     
     _dmAdView = [[DMAdView alloc] initWithPublisherId:@"56OJyM1ouMGoULfJaL"
-                                          placementId:@"16TLwebvAchkANUH_krQ7vOz"
-                                                 size:DOMOB_AD_SIZE_320x50];
+                                          placementId:@"16TLwebvAchkANUH_krQ7vOz"];
+
     _dmAdView.delegate = self;
     _dmAdView.rootViewController = viewController;
     
@@ -72,10 +72,7 @@ static AppDelegate s_sharedApplication;
     }else{
         originHeight = 20;
     }
-    _dmAdView.frame = CGRectMake(0, originHeight, DOMOB_AD_SIZE_320x50.width, DOMOB_AD_SIZE_320x50.height);
-    
-#warning 注意 如果使用的是 flexible banner 则需要单独设置宽度为设备当前的宽度
-    //_dmAdView.frame = CGRectMake(0, originHeight, 设备宽度, FLEXIBLE_SIZE_PORTRAIT.height);
+    _dmAdView.frame = CGRectMake(0, originHeight, FLEXIBLE_SIZE.width, FLEXIBLE_SIZE.height);
     
     
     [_dmAdView loadAd];

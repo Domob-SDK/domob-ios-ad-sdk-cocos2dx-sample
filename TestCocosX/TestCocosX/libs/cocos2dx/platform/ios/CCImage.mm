@@ -292,8 +292,9 @@ static bool _initWithString(const char * pText, cocos2d::CCImage::ETextAlign eAl
         memset(data, 0, (int)(dim.width * dim.height * 4));
         
         // draw text
-        CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();    
-        CGContextRef context = CGBitmapContextCreate(data, dim.width, dim.height, 8, dim.width * 4, colorSpace, kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
+        CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+       
+        CGContextRef context = CGBitmapContextCreate(data, dim.width, dim.height, 8, (int)dim.width * 4, colorSpace, kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
         CGColorSpaceRelease(colorSpace);
         
         if (! context)
@@ -316,7 +317,9 @@ static bool _initWithString(const char * pText, cocos2d::CCImage::ETextAlign eAl
         // normal fonts
         if( [font isKindOfClass:[UIFont class] ] )
         {
-            [str drawInRect:CGRectMake(0, startH, dim.width, dim.height) withFont:font lineBreakMode:(UILineBreakMode)UILineBreakModeWordWrap alignment:align];
+            
+            [str drawInRect:CGRectMake(0, startH, dim.width, dim.height) withFont:font lineBreakMode:NSLineBreakByWordWrapping alignment:(NSTextAlignment)align];
+           
         }
         else // ZFont class 
         {

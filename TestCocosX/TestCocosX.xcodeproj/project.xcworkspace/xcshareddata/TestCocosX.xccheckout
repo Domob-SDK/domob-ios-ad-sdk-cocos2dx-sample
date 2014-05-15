@@ -5,41 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>808CF6E4-319B-4ABB-B58B-766C92172C4B</string>
+	<string>5955F04D-42B9-48FA-A02E-965AC3BC9643</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TestCocosX</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5891B0D4-88A2-4722-A6B6-412554D4EB86</key>
-		<string>http://svn.staff.domob.cn/svn/domob/Client/ios/demos/TestCocosX</string>
+		<key>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</key>
+		<string>https://github.com/Domob-SDK/domob-ios-ad-sdk-cocos2dx-sample.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TestCocosX.xcodeproj/project.xcworkspace</string>
+	<string>TestCocosX/TestCocosX.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5891B0D4-88A2-4722-A6B6-412554D4EB86</key>
-		<string>../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>5891B0D4-88A2-4722-A6B6-412554D4EB86</key>
-		<string>http://svn.staff.domob.cn/svn/domob</string>
+		<key>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://svn.staff.domob.cn/svn/domob/Client/ios/demos/TestCocosX/TestCocosX.xcodeproj</string>
+	<string>https://github.com/Domob-SDK/domob-ios-ad-sdk-cocos2dx-sample.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5891B0D4-88A2-4722-A6B6-412554D4EB86</string>
+	<string>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5891B0D4-88A2-4722-A6B6-412554D4EB86</string>
+			<string>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TestCocosX</string>
+			<string>domob-ios-ad-sdk-cocos2dx-sample</string>
 		</dict>
 	</array>
 </dict>
