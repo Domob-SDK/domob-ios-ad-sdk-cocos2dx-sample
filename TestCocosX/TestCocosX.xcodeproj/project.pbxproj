@@ -2037,7 +2037,7 @@
 					armv7,
 					armv7s,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: 同乐 苏 (29VXSF7ZQM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: su tongle (CQWG7QHMLA)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2057,7 +2057,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "01FB9340-5462-462B-8C6A-6BC3F40E5D77";
+				PROVISIONING_PROFILE = "ca537f06-2b94-4e5b-b81b-375158b2a355";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2071,7 +2071,7 @@
 					armv7,
 					armv7s,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: 同乐 苏 (29VXSF7ZQM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: su tongle (CQWG7QHMLA)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestCocosX/Prefix.pch;
@@ -2090,7 +2090,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "01FB9340-5462-462B-8C6A-6BC3F40E5D77";
+				PROVISIONING_PROFILE = "ca537f06-2b94-4e5b-b81b-375158b2a355";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

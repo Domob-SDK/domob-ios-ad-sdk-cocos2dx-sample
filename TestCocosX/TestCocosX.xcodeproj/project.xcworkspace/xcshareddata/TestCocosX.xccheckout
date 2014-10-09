@@ -10,29 +10,29 @@
 	<string>TestCocosX</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</key>
+		<key>82A26DB642251F672134E6F575D24068526C9750</key>
 		<string>https://github.com/Domob-SDK/domob-ios-ad-sdk-cocos2dx-sample.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TestCocosX/TestCocosX.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</key>
+		<key>82A26DB642251F672134E6F575D24068526C9750</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Domob-SDK/domob-ios-ad-sdk-cocos2dx-sample.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</string>
+	<string>82A26DB642251F672134E6F575D24068526C9750</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2C49B8F1-C895-4BBF-BAE9-AFB548B0EDC0</string>
+			<string>82A26DB642251F672134E6F575D24068526C9750</string>
 			<key>IDESourceControlWCCName</key>
 			<string>domob-ios-ad-sdk-cocos2dx-sample</string>
 		</dict>
